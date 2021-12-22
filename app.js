@@ -2,8 +2,6 @@ const Express = require("express");
 const cors = require('cors');
 const BodyParser = require("body-parser");
 const MongoClient = require("mongodb").MongoClient;
-const ObjectId = require("mongodb").ObjectID;
-// const CONNECTION_URL = 'mongodb+srv://quiz:quizapp@quiz.8o4t0.mongodb.net/myFirstDatabase?retryWrites=true&w=majority';
 const CONNECTION_URL = 'mongodb+srv://quiz:quizapp@quiz.8o4t0.mongodb.net/myFirstDatabase?retryWrites=true&w=majority';
 const DATABASE_NAME = "quiz";
 
